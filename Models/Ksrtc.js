@@ -3,11 +3,15 @@ const schema = mongoose.Schema(
     {
         "name": String,
         "email": String,
-        "passwd": String
+        "phno": String,
+        "gender": String,
+        "passwd": String,
+        "bname": String
+
 
 
     }
 )
 
-let blogmodel=mongoose.model("users",schema)
-module.exports={blogmodel}
+let busmodel=mongoose.model("buses",schema)
+module.exports={busmodel}
